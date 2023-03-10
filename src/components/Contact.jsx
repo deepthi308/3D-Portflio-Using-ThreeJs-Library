@@ -31,14 +31,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     // -------------------------
-// template_w2ew6lh
-    // service_f2uueve
-    // service_xyfsryi
-    // t-iv1uGvAD4Cc2Pxy
+y
     emailjs
       .send(
-        'service_xyfsryi',
-        'template_w2ew6lh',
+        '','',
         {
           from_name: form.name,
           to_name: "Deepthi Hariraman",
@@ -46,7 +42,7 @@ const Contact = () => {
           to_email: "deepthih6@gmail.com",
           message: form.message,
         },
-        't-iv1uGvAD4Cc2Pxy'
+        ''
       )
       .then(
         () => {
